@@ -1,4 +1,7 @@
-
+""" 
+    Builder
+    - A creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+"""
 from abc import ABC, abstractmethod
 
 class Car:  # Product
